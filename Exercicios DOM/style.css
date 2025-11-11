@@ -1,11 +1,50 @@
 body{
-    background-color: firebrick;
-    font-family: sans-serif;
-    text-align: center;
+    background-image:url("https://pt.quizur.com/_image?href=https%3A%2F%2Fdev-beta.quizur.com%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fimagens%2F%2F20924432%2F22ae992a-36e6-4568-8476-fc0dfc57b8da.png%3Fo%3Dfeed&w=250&h=300&f=webp");
+    background-size: 20%;
+    animation: mover-fundo 10s linear infinite;
 }
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    margin: 5px;
+#conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: azure;
+}
+h1{
+     margin-bottom: 20px;
+     font-family: Arial, sans-serif;
+}
+button{
+    background: none;
+    border: none;
     cursor: pointer;
+    transition: transform 0.2s ease;
+}
+button img{
+    width: 700px;
+    transition: transform 0.3s ease;
+}
+button:hover img{
+    transform: scale(1.1);
+}
+button:active img {
+    transform: scale(0.95);
+}
+
+@keyframes mover=fundo{
+    0%{
+    background-position: 0 0;
+    }
+    100%{
+background-position: 100% 0;
+    }
+} {
+    
 }

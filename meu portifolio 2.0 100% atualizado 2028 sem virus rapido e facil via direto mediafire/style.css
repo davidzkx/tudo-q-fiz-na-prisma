@@ -1,0 +1,54 @@
+:root{
+    --cor-primaria: #353531;
+    --cor-secundaria: #ec4e20;
+    --cor-tercearia: #ff9505;
+}
+body{
+    BACKGROUND-COLOR: var(--cor-secundaria);
+    margin: 0;
+}
+
+header{
+    background-color: var(--cor-terciaria);
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+    top: 0;
+}
+main{
+    background-color: var(--cor-secundaria);
+}
+footer{
+    background-color: var(--cor-tercearia);
+    width: 100vw;
+    height: 35px;
+    position: fixed;
+    bottom: 0;
+}
+.cabecalho{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 100px;
+    margin-right: 30px;
+    height: 100%;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0px 20px;}
+
+    sobre-mim{
+        margin-top: 100px;
+        display: flex;
+        justify-content; center;
+        gap: 50px;
+    }
+
+    .texto, .foto{
+        border: 1px solid black;
+        border-radius 20px;
+    }

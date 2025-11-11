@@ -1,15 +1,23 @@
-.color-picker {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 1000;
-}
-
-.color-picker input[type="color"] {
-    width: 40px;
-    height: 40px;
-    border: none;
-    cursor: pointer;
-    background: none;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="corpo">
+    <h1 id="titulo">Contador</h1>
+    <button id="BotaoIncrementar">incrementar</button>
+    <button id="BotaoDecrementar">decrementar</button>
+    <ul id="lista">
+        <li>novo item</li>
+    </ul>
+    <button id="Add">clique para adicionar</button>
+    <button id="azul">cor azul</button>
+    <button id="vermelho">cor vermelha</button>
+    <button id="verde">cor verde</button>
+    <input type="color" id="seletor">
+    <button id="BotaoRemover">clique para remover</button>
+<script src="script.js"></script>
+</html>

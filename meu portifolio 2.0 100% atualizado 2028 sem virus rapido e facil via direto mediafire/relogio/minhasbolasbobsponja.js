@@ -69,9 +69,10 @@ let botao = document.getElementById("botao")
 
 let tempo_temporizaador
 function atualizarTemporizador(){
-    tempo_temporizador[2]== -1){
+    tempo_temporizador[2]--
 
-        if(tempo_temporizador[2] == -1){
+        if(tempo_temporizador[0] == 0 && tempo_temporizador[1] == 0 && tempo_temporizador[2] == 0){
+            clearInterval(id_temporizador)
             tempo_temporizador[2] = 59
             tempo_temporizador[1] --
         }
